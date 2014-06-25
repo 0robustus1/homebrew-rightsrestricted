@@ -1,10 +1,10 @@
 require "formula"
 
 class Serverprint < Formula
-  homepage "https://gist.github.com/0robustus1/9382ccc921619ab95a88"
-  url "https://gist.githubusercontent.com/0robustus1/9382ccc921619ab95a88/raw/fe74bfa8be37e11dcb432c530acc8d7dfd950c47/serverprint.pl"
-  sha1 "04b71aa9c6da7ffd072f24a99a92c0ec6cfa7d17"
-  version "0.0.2"
+  homepage "https://github.com/0robustus1/serverprint"
+  url "https://github.com/0robustus1/serverprint/archive/0.0.3.tar.gz"
+  sha1 "80d3e3f9f48cccf3722efe7f96e821f2b3188c56"
+  version "0.0.3"
 
   def install
     mv('serverprint.pl', 'serverprint')
