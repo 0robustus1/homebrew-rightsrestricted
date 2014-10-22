@@ -2,13 +2,12 @@ require "formula"
 
 class Serverprint < Formula
   homepage "https://github.com/0robustus1/serverprint"
-  url "https://github.com/0robustus1/serverprint/archive/0.0.3.tar.gz"
-  sha1 "80d3e3f9f48cccf3722efe7f96e821f2b3188c56"
-  version "0.0.3"
+  url "https://github.com/0robustus1/serverprint/archive/0.0.4.tar.gz"
+  sha1 "14fb9da43f8da643b963fb430546d5bd694217e7"
+  version "0.0.4"
 
   def install
-    mv('serverprint.pl', 'serverprint')
-    bin.install('serverprint')
+    prefix.install Dir['*']
   end
 
   test do
