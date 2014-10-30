@@ -3,7 +3,7 @@ require "formula"
 class Serverprint < Formula
   homepage "https://github.com/0robustus1/serverprint"
   url "https://github.com/0robustus1/serverprint/archive/0.0.5.tar.gz"
-  sha1 "844ace272599e94e53e50808c8dfc22ca364eaeb"
+  sha1 "a2593aaf51ff4d4d3bd9ffdf3724de16bbb8024d"
   version "0.0.5"
 
   def install
