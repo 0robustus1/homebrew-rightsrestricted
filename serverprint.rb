@@ -2,9 +2,9 @@ require "formula"
 
 class Serverprint < Formula
   homepage "https://github.com/0robustus1/serverprint"
-  url "https://github.com/0robustus1/serverprint/archive/0.0.6.tar.gz"
-  sha1 "ec7f276d61277590fa10d7dac38f5b47f5b51362"
-  version "0.0.6"
+  url "https://github.com/0robustus1/serverprint/archive/0.0.7.tar.gz"
+  sha1 "f1f39f46f80b7765e11bb2e5bfd5df8212ad0e22"
+  version "0.0.7"
 
   def install
     system("make prefix=#{prefix} install")
