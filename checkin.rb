@@ -3,7 +3,7 @@ require "formula"
 class Checkin < Formula
   homepage "https://github.com/0robustus1/checkin"
   url "https://github.com/0robustus1/checkin/archive/0.1.1.tar.gz"
-  sha1 "04a5af4f8d12c0fb2250ba3aebf506d469c60813"
+  sha256 "a48c4cf3ef22a63a999a43a83ed9768c5daf13564b7e8dfc321c7e38db59f6c9"
 
   depends_on "cmake" => :build
   # Already comes with Mac OS X

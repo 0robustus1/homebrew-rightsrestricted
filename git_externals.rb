@@ -4,7 +4,7 @@ class GitExternals < Formula
   homepage 'https://github.com/0robustus1/git_externals'
   url 'https://github.com/0robustus1/git_externals/archive/0.0.1.tar.gz'
   head 'https://github.com/0robustus1/git_externals.git'
-  sha1 'a8e3f5313f955c4083680204efca7aaa81447559'
+  sha256 '71903070eb263b3b4f8c6c40fb9f200ed6e71579cbdf93395d0d24058dac19b4'
 
   depends_on 'gawk' => :recommended
 
